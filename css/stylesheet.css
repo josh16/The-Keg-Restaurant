@@ -1,0 +1,231 @@
+/**CSS Reset**/
+
+
+/**CSS Variables**/
+:root{
+  --grey-black:#343434;
+  --light-black:#1d1d1d;
+  --dark-red:#7e102c;
+  --chalk-white:#e5e5e5;    
+    
+}
+
+body{
+    background-color: var(--light-black);
+    height:800px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+ scroll-behavior: smooth;   
+}
+
+/***HEADER***/
+header{
+    background-color: var(--grey-black);
+    height: 80px;
+    padding:5px;
+}
+
+.custom-menu{
+    padding:10px;
+}
+
+.custom-menu li a{
+    background-color: var(--light-black);
+    color:red;
+    border-bottom: none;
+}
+
+.custom-menu li a:hover{
+    background-color: var(--dark-red);
+    color:white;
+}
+
+.title-bar{
+    background-color: var(--grey-black);
+}
+
+/*Images and Logos*/
+.keg-logo{
+    height:70px;
+    /*margin:5px 0px 5px 5px;*/
+    
+}
+
+.celebrate-banner{
+    margin-top: 10px;
+}
+/***END OF HEADER***/
+
+
+/***MAIN SECTION***/
+.location-picture{
+    margin:20px 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.location-picture div{
+    position: absolute;
+    padding:0px 8px;
+    margin:2px 0px 2px 2px;
+    text-align: center;
+    color:white;
+    background-color: var(--grey-black);
+}
+
+.location-picture__sty{
+    color:white;
+    font-size:18px;
+    border:3px solid var(--dark-red);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.hours-operation{
+    margin:20px 10px; 
+    padding:5px;
+    color:white;
+    text-align: justify;
+    background-color: var(--grey-black);
+    border:3px solid var(--dark-red);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.hours-operation h3{
+    text-align: center;
+    color:red;
+}
+
+.hours-operation p{
+    text-align: center;
+}
+
+.category-title{
+    text-align: center;
+    font-size: 16px;
+    background-color: var(--chalk-white);
+    border:5px solid var(--dark-red);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top:80px;
+    margin-bottom: 20px;
+}
+
+.category-title h2{
+    color:red;
+}
+
+.category-box-large{
+    text-align: center;
+    color:red;
+    font-size: 30px;
+    border:2px solid white;
+    border-left:none;
+    border-right:none;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+
+
+.category-box h3{
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.category-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--dark-red);
+    border: 1px solid white;
+    border-left:none;
+    border-right:none;
+}
+
+
+.category-title{
+    color:white;   
+}
+
+.food-info p{
+    color:white;
+    padding:15px 5px;
+    background-color: var(--grey-black);
+    text-align: justify;
+    padding-left: 5px;
+}
+
+
+.more-food-info a{
+    color:red;
+    border:1px solid var(--chalk-white);
+    border-radius: 5px;
+}
+
+
+.more-food-info li{
+    color:var(--chalk-white);
+    margin-top:5px;
+}
+
+.more-food-info a:hover {
+ background-color: var(--chalk-white);   
+}
+
+.food-info-large{
+    background-color:var(--grey-black); 
+    color:white;
+    padding:0px 8px;
+    
+}
+
+
+.food-info-large h3{
+    margin-top: 5px;
+    color:red;
+    background: white;
+    text-align: center;
+}
+
+/***END OF MAIN BODY**/
+
+
+/***FOOTER***/
+footer{
+    background-color: var(--grey-black);
+    margin-top: 20px;
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-color:antiquewhite;
+}
+
+.terms-of-use a{
+    color:white;
+    padding-left:0px;
+    text-decoration: none;
+}
+
+.terms-of-use a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.terms-of-use li{
+    list-style: none;
+}
+
+.social-media p{
+    color:var(--chalk-white);
+    font-size:22px;
+}
+.social-icon{
+    height:50px;
+    width:50px;
+    margin:5px;
+}
+/*END OF FOOTER*/
+
